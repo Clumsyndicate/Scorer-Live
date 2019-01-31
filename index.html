@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <title>Scorer | Online </title>
+</head>
+<body>
+    <h1 class="title">Scorer | Live</h1>
+    <div class="all">
+        <div class="upper">
+            <p class="team" id="1">TEAM 1</p>
+            <div class="game-div">
+                <p class="game" style="font-size: 3rem; color: red; font-family: avenir; font-weight: 500;">Game</p>
+                <p class="game-num" style="font-size: 3rem; color: red; font-family: avenir; font-weight: 500;">1</p>
+            </div>
+            <p class="team" id="2">TEAM 2</p>
+        </div>
+        <p class="timer" id="timer">10:00:00</p>
+        <div class="lower">
+            <p class="score" id="1" style="font-family: Erbos; font-size: 10rem">50</p>
+            <div class="game-img"><img src="assets/bball.png" alt="" style="max-height: 100%;"></div>
+            <p class="score" id="2" style="font-family: Erbos; font-size: 10rem">50</p>
+
+        </div>
+    </div>
+    <footer>
+        Scorer &copy; Johnson Zhou.
+    </footer>
+</body>
+<script src='https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js' integrity='sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=' crossorigin='anonymous'></script>
+<script src="socket.io.js"></script>
+<script src="main.js"></script>
+</html>

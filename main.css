@@ -1,0 +1,101 @@
+@font-face {
+  font-family: Erbos;
+  src: url(assets/Erbost-Open.woff);
+}
+
+@font-face {
+  font-family: Lemon;
+  src: url(assets/LemonMilk.woff);
+}
+
+.title {
+    font-family: Roboto;
+    font-weight: 100;
+}
+
+.game-div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.game-num {
+    margin: 0 0 0 0;
+}
+
+.game {
+    margin: 0 0 1rem 0;
+}
+
+.team {
+    padding: 2rem;
+}
+
+.upper {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    width: 80vw;
+    margin: 0 auto;
+    justify-content: center;
+    height: 30vh;
+}
+
+h1.title {
+    text-align: center;
+}
+
+p.team {
+    font-family: Lemon;
+    font-size: 6rem;
+}
+
+.game-img {
+    height: 100px;
+    width: 100px;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    background-image: url(assets/bball.png);
+    
+}
+
+.lower {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    width: 80vw;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 30vh;
+}
+
+.all {
+    border-radius: 2rem;
+    background-color: rgba(0,0,0,0.05);
+}
+
+.timer {
+    text-align: center;
+    font-size: 6rem;
+    margin: 0 0 0 0;
+    font-family: sans-serif;
+}
+
+footer {
+    font-size: 16px;
+    color: #adacaa;
+    font-family: Roboto;
+    text-align: center;
+    bottom: 20px;
+    position: absolute;
+    width: 100%;
+}
